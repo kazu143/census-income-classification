@@ -4,13 +4,7 @@
 
 The objective of this project is to identify demographic, educational, and employment-related characteristics associated with individuals earning **more or less than $50,000 per year**, using anonymized U.S. Census data.
 
-This work was completed as part of a **Data Scientist Technical Assessment**, with a focus on:
-
-* Sound data science methodology
-* Interpretability and communication
-* Production-ready, reproducible code
-
----
+--
 
 ## 📊 Dataset Overview
 
@@ -46,8 +40,10 @@ Metadata provided by the Census Bureau was explicitly used to guide preprocessin
 
 Key findings from EDA:
 
-* Income is strongly associated with age, weeks worked, education level, and occupation group
-* Several demographic variables encode overlapping information (e.g., migration and residence history)
+*Marriage status, education, and sex are the strongest categorical predictors of high income.
+*Higher education and male gender increase likelihood of earning >50K.
+*Race shows some disparities, but effect is smaller compared to education and marital status.
+*Several demographic variables encode overlapping information (e.g., migration and residence history)
 * A naive majority-class model achieves **93.8% accuracy**, setting a critical baseline
 
 EDA outputs are documented with visualizations and summary tables in the notebooks.
