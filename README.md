@@ -126,10 +126,7 @@ This represents a substantial improvement over the majority-class baseline.
 
 ```
 ├── notebooks/
-│   ├── 01_data_understanding.ipynb
-│   ├── 02_eda.ipynb
-│   ├── 03_feature_engineering.ipynb
-│   ├── 04_modeling.ipynb
+│   ├── 01_census_income_ml.ipynb
 ├── slides/
 │   └── census_income_presentation.pdf
 ├── README.md
